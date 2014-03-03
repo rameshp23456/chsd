@@ -20,12 +20,12 @@ body {
 }
 .banner{
 	height:180px;
-	width:750px;
+	/*width:750px;*/
 	margin:0px auto auto;
 	
 }
 .colrd-caption{
-	color:#9B59B6;
+	color:#067EFF;
 }
 
 
@@ -37,6 +37,7 @@ body {
 
 .home-link{
 	padding:0px 5px;
+	color: #1956DA;
 }
 .links-list .list-item{
 	display:list-item;
@@ -49,8 +50,28 @@ body {
 }
 .news-item{
 	padding:10px 5px;
+	
+	
+display: block;
+
+overflow: auto;
+border-bottom: 1px solid #CCC;
+}
+.news-item a {
+color: #F36719;
+
+
+margin-left: 35px;
+
+display: block;
+margin-top: -28px;
+
+
 }
 
+.news-item-icon{
+	
+}
 .navbar.navbar-static-top{
 	margin-bottom:0px;
 }
@@ -64,6 +85,11 @@ body {
 .tab-pane {
   margin-top: 15px;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
 
 /* Page Sections */
 .section,
