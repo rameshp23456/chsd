@@ -87,9 +87,13 @@ margin-top: -28px;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+    /*display: block;*/
  }
 
+
+li{
+	list-style-type:none;
+}
 
 /* Page Sections */
 .section,
@@ -98,8 +102,9 @@ margin-top: -28px;
 }
 
 .section-colored {
-  background-color: #1ABC9C; /* change this to change the background color of a colored section */
+  background-color: #FF9900; /* #1ABC9C change this to change the background color of a colored section */
  color:#FFF;
+ border-radius: 5px;
 }
 
 .sidebar {
@@ -183,7 +188,10 @@ margin-top: -28px;
 
 /* Footer Styles */
 footer {
-  margin: 50px 0;
+	padding: 20px 0px;
+  margin: 0px 0;
+  background:#3B5998;
+  color:#FFFFFF;
 }
 
 /* Responsive Styles */
