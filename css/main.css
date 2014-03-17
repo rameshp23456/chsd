@@ -102,9 +102,12 @@ li{
 }
 
 .section-colored {
-  background-color: #FF9900; /* #1ABC9C change this to change the background color of a colored section */
+  background-color: #9370DB; /* #1ABC9C change this to change the background color of a colored section */
  color:#FFF;
  border-radius: 5px;
+}
+.section-colored h2{
+	color: #FFFFFF;
 }
 
 .sidebar {
