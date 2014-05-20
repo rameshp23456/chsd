@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -50,7 +50,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                 <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
                     	<ul class="dropdown-menu">
@@ -144,14 +144,97 @@
     <div class="container">
     <div class="row">
     	<div class="col-md-8">
-    		<h3>Our campus</h3>
+    		<h3>Administration</h3>
     		<ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
                     <li><a href="aboutus.html">About</a></li>
-                    <li class="active">Our Campus</li>
-                    
+                    <li class="active">Administration</li>
                 </ol>
+
+
+            <div>
+                <strong>Organization structure</strong>
+
+                <p>St.Theresa’s follows a participatory management principle.Though the  institution has well defined duties and responsibilities it functions in such a way that it brings out the best from every level of management,help in blossoming the talents and enriching the expertise of the staff and students.</p>
+
+                <strong>Administration:</strong>
+
+                <p>
+                    Congregation of the Sister’s of St.Ann,Southern Province ,India.
+                </p>
+                <strong>
+                    Management Committee members:
+                </strong>
+                <ul>
+                    	<li>Dr.Sr.Marietta D’Mello  -President</li>
+                    <li>	Rev.Sr.Ursula                   -Correspondent</li>
+                    <li>	Dr.Sr.Mercy                     -Principal and Secretary</li>
+                    <li>	Dr.Sr.Marietta Pudota   -Member</li>
+                    <li>	Sr.Graziana                      -Member</li>
+                    <li>	Sr.Showrilu                      -Member</li>
+                    <li>	Sr.Sunila Rani                 -Controller of Exams</li>
+                    <li>	Sr.Inyasamma .M         -Administrative Officer</li>
+
+                </ul>
+                <strong>Governing Body</strong>
+                <p>The governing body helps the institution to move in the path of excellence by directing the academic,financial and administration functioning.</p>
+
+                <strong> Congregation of Sisters Of St.Ann ,Southern Province</strong>
+
+                <p>
+
+                    <ul>
+                        <li>
+                            Dr.Sr.Marietta D’Mello  -President
+                        </li>
+                        <li>Rev.Sr.Ursula                   -Correspondent</li>
+                        <li>Dr.Sr.Mercy                     -Principal and Secretary</li>
+                        <li>	Dr.Sr.Marietta Pudota   -Member</li>
+                        <li>	Sr.Graziana                      -Member</li>
+                        <li>	Sr.Violentina                    Member</li>
+                        <li>	Sr.Showrilu                      -Member</li>
+                        <li>	Sr.Sunila Rani                 -Member</li>
+                        <li>	Sr.Inyasamma .M         -Member</li>
+
+
+                    </ul>
+                    (other members…)
+                </p>
+                <p>
+                    <b>PRINCIPAL :</b>
+                    <address>                        Dr.Sr.Mercy Punnamchira
+                        Contact no :  +91 -8812-251210<br />
+                        Fax              :+91 -8812-250380<br />
+                        Email         : srmercyp@gmail.com<br />
+                        St_theresa2003@yahoo.co.in</address>
+
+                </p>
+
+                <div>
+                    <strong>
+                        Administrative Team  :
+                    </strong>
+                    
+                    <p>
+                        Sr.K.Showrilu <br />
+                        Vice Principal<br />
+                        Degree Campus <br />  
+                    </p>
+
+                    <p>
+                        Dr.Sr.Marietta<br />
+                        Dean Intermediate<br />      
+                        Intermediate Campus<br />
+                    </p>
+                    <p>
+                        Dr.Sr.Graziana<br />
+                        Director<br />
+                        PG Courses<br />
+                    </p>
+                </div>
+
+            </div>
     	</div>
     	<div class="col-md-4">
     		
@@ -170,7 +253,8 @@
     </div>
     
     
-    <footer class="footer">
+    
+   <footer class="footer">
     <div class="container">
 
         <div class="row">
