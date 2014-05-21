@@ -147,7 +147,7 @@ chsdApp.config(['$routeProvider',
                templateUrl: 'students/careerGuidence.html',
 
            }).
-          when('/couselling-cell', {
+          when('/counselling-cell', {
               templateUrl: 'students/counsellingCell.html',
 
           }).
