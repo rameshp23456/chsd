@@ -122,7 +122,7 @@ li{
 
 /* Half Page Height Carousel Customization */
 .carousel {
-  height: 70%;
+  height: 300px;
 }
 
 .item,
@@ -201,7 +201,7 @@ footer {
 @media (max-width: 767px) {
 
 .carousel {
-  height: 60%; /* increases the carousel height so it looks good on phones */
+  height: 300px; /* increases the carousel height so it looks good on phones */
 }
 
 }
