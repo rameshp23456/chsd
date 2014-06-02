@@ -57,7 +57,32 @@ var linkConfig = {
 	'/red-ribbon-club' : 'Students',
 
 	//For Departments
-	'/departments' : 'Departments',
+	'/departments': 'UG-Depts',
+
+    //UG
+	'/bio-applied-science': 'UG-Depts',
+	'/botony': 'UG-Depts',
+	'/chemistry': 'UG-Depts',
+	'/commerce': 'UG-Depts',
+	'/computers': 'UG-Depts',
+	'/english': 'UG-Depts',
+	'/hindi': 'UG-Depts',
+	'/home-science': 'UG-Depts',
+	'/physical-education': 'UG-Depts',
+	'/sanskrit': 'UG-Depts',
+	'/social': 'UG-Depts',
+	'/telugu': 'UG-Depts',
+	'/zoology': 'UG-Depts',
+
+    //PG
+	'/mca': 'PG-Depts',
+	'/mba': 'PG-Depts',
+	'/ma-economics': 'PG-Depts',
+	'/ma-english': 'PG-Depts',
+	'/msc-maths': 'PG-Depts',
+	'/msc-microbiology': 'PG-Depts',
+	'/msc-chemistry': 'PG-Depts',
+	'/msc-physics': 'PG-Depts',
 
 };
 
@@ -155,7 +180,65 @@ var siteMap = {
 		path : "/protocal",
 		name : "Protocal"
 	}],
-	'Departments' : [],
+	'Departments': [],
+	'UG-Depts':[{ 'path' :"/bio-applied-science", 'name' : "Bio-Applied Science" } ,
+                    		
+                    		
+                               { 'path' :"/botony", 'name' : "Botony" } ,
+                    		
+                    		
+                               { 'path' :"/chemistry", 'name' : "Chemistry" } ,
+                    		
+                    		
+                               { 'path' :"/commerce", 'name' : "Commerce &amp; Managment" } ,
+                    		
+                    		
+                               { 'path' :"/computers", 'name' : "Computer Science" } ,
+                    		
+                    		
+                               { 'path' :"/english", 'name' : "English" } ,
+                    		
+                    		
+                               { 'path' :"/hindi", 'name' : "Hindi" } ,
+                    		
+                    		
+                               { 'path' :"/home-science", 'name' : "Home Sciences" } ,
+                    		
+                    		
+                               { 'path' :"/physical-education", 'name' : "Physical Education" } ,
+                               { 'path': "/sanskrit", 'name': "Sanskrit" },
+                               { 'path': "/social", 'name': "Social Sciences" },
+                               { 'path': "/telugu", 'name': "Telugu" },
+                               { 'path' :"/zoology", 'name' : "Zoology" } 
+                    		
+],
+'PG-Depts':[
+                    		
+                               { 'path' :"/mca", 'name' : "MCA" } ,
+                    		
+                    		
+                               { 'path' :"/mba", 'name' : "MBA" } ,
+                    		
+                    		
+                               { 'path' :"/ma-economics", 'name' : "MA Economics" } ,
+                    		
+                    		
+                               { 'path' :"/ma-english", 'name' : "MA English" } ,
+                    		
+                    		
+                               { 'path' :"/msc-maths", 'name' : "Msc Maths" } ,
+                    		
+                    		
+                               { 'path' :"/msc-microbiology", 'name' : "Msc Microbiology" } ,
+                    		
+                    		
+                               { 'path' :"/msc-chemistry", 'name' : "Msc Chemistry" } ,
+                    		
+                                
+                                   { 'path' :"/msc-physics", 'name' : "Msc Physics" } 
+                                
+	],
+
 	'Students' : [{
 		path : "/ncc",
 		name : "NCC"
