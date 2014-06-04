@@ -59,7 +59,7 @@ var linkConfig = {
 	'/aicuf' : 'Students',
 	'/red-ribbon-club': 'Students',
 	'/women-empowerment-cell': 'Students',
-	'/valueEducation': 'Students',
+	'/value-education': 'Students',
 	'/student-welfare-committee': 'Students',
 	'/snehita': 'Students',
 	'/anti-ragging-squad': 'Students',

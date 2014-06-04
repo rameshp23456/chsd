@@ -56,7 +56,7 @@ var routeConfig = {
 	'/aicuf' : 'students/coCurricularActivities/aicuf.html',
 	'/red-ribbon-club': 'students/coCurricularActivities/redRibbonClub.html',
 	'/women-empowerment-cell': 'students/womenEmpowermentCell.html',
-	'/valueEducation': 'students/valueEducation.html',
+	'/value-education': 'students/valueEducation.html',
 	'/student-welfare-committee': 'students/studentWelfareCommittee.html',
 	'/snehita': 'students/snehita.html',
     '/anti-ragging-squad':'students/antiRaggingSquad.html',
