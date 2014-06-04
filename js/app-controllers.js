@@ -194,7 +194,7 @@ var siteMap = {
 		path : "/protocal",
 		name : "Protocal"
 	}],
-	'Departments': [],
+	//'Departments': [],
 	'UG-Depts':[{ 'path' :"/b-voc", 'name' : "B.Vocational" },
 	{ 'path' :"/bio-applied-science", 'name' : "Bio-Applied Science" } ,
                     		
@@ -334,8 +334,16 @@ function($scope, $routeparams, $route) {
 chsdControllers.controller('templateCtrl', ['$scope', '$routeParams', '$route',
 function($scope, $routeparams, $route) {
 	$scope.template = routeConfig[$route.current.originalPath];
-	console.log($route.current.originalPath);
+	
 	
 	var linksName = linkConfig[$route.current.originalPath];
 	$scope.links = siteMap[linksName]; 
+}]);
+
+chsdControllers.controller('sitemapCtrl', ['$scope', '$routeParams', '$route',
+function ($scope, $routeparams, $route) {
+    
+
+    //var linksName = linkConfig[$route.current.originalPath];
+    $scope.sitemap = siteMap;
 }]);

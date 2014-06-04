@@ -1,0 +1,11 @@
+<div class="container">
+
+    <div ng-repeat="(key,links) in sitemap">
+        <h3>{{key}}</h3>
+        <ul>
+            <li ng-repeat='link in links'><a href="#{{link.path}}">{{link.name}}</a></li>
+        </ul>
+
+    </div>
+
+</div>

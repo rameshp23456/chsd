@@ -116,6 +116,10 @@ chsdApp.config(['$routeProvider',
            when('/gallery', {
                templateUrl: 'gallery.html',
            }).
+           when('/sitemap', {
+               templateUrl: 'sitemap.html',
+               controller: 'sitemapCtrl'
+           }).
 
         otherwise({
             redirectTo: '/main'
