@@ -8,7 +8,9 @@ var linkConfig = {
 	'/vision' : 'Aboutus',
 	'/ourCampus' : 'Aboutus',
 	'/principalMessage' : 'Aboutus',
-	'/theresaMessage' : 'Aboutus',
+	'/theresaMessage': 'Aboutus',
+	'/college-emblem': 'Aboutus',
+	'/mile-stones': 'Aboutus',
 	
 	//For Administration
 	'/staffCouncil' : 'Administration',
@@ -26,7 +28,8 @@ var linkConfig = {
 	'/pg' : 'Academics',
 	'/career-oriented' : 'Academics',
 	'/community-college' : 'Academics',
-	'/results' : 'Academics',
+	'/results': 'Academics',
+	'/b-voc': 'Academics',
 	
 	//For Campus
 	'/auditorium' : 'Campus',
@@ -54,7 +57,12 @@ var linkConfig = {
 	'/sports' : 'Students',
 	'/nss' : 'Students',
 	'/aicuf' : 'Students',
-	'/red-ribbon-club' : 'Students',
+	'/red-ribbon-club': 'Students',
+	'/women-empowerment-cell': 'Students',
+	'/valueEducation': 'Students',
+	'/student-welfare-committee': 'Students',
+	'/snehita': 'Students',
+	'/anti-ragging-squad': 'Students',
 
 	//For Departments
 	'/departments': 'UG-Depts',
@@ -89,7 +97,13 @@ var linkConfig = {
 
 
 var siteMap = {
-	'Aboutus' : [{
+    'Aboutus': [{
+        path: '/college-emblem',
+        name: 'College Emblem'
+    }, {
+        path: '/mile-stones',
+        name: 'Mile stones'
+    }, {
 		path : "/aboutus",
 		name : "History"
 	}, {
@@ -181,7 +195,8 @@ var siteMap = {
 		name : "Protocal"
 	}],
 	'Departments': [],
-	'UG-Depts':[{ 'path' :"/bio-applied-science", 'name' : "Bio-Applied Science" } ,
+	'UG-Depts':[{ 'path' :"/b-voc", 'name' : "B.Vocational" },
+	{ 'path' :"/bio-applied-science", 'name' : "Bio-Applied Science" } ,
                     		
                     		
                                { 'path' :"/botony", 'name' : "Botony" } ,
@@ -281,7 +296,13 @@ var siteMap = {
 	}, {
 		path : "/student-parliament",
 		name : "Student Parliment"
-	}],
+	},
+     {path:"/anti-ragging-squad",name:"Anti Ragging Squad"},
+     {path:"/snehita",name:"Snehita"},
+     {path:"/student-welfare-committee",name:"Student Welfare Committee"},
+     {path:"/value-education",name:"Value Education"},
+     {path:"/women-empowerment-cell",name:"Women Empowerment Cell"}
+	],
 };
 
 chsdControllers.controller('mainCtrl', ['$scope', '$routeParams', '$route',

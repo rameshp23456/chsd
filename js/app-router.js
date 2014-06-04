@@ -5,7 +5,9 @@ var routeConfig = {
 	'/vision' : 'about/vision.html',
 	'/ourCampus' : 'about/ourCampus.html',
 	'/principalMessage' : 'about/principalMessage.html',
-	'/theresaMessage' : 'about/theresaMessage.html',
+	'/theresaMessage': 'about/theresaMessage.html',
+	'/college-emblem': 'about/collegeEmblem.html',
+    '/mile-stones':'about/mileStones.html',
 	
 	//For Administration
 	'/staffCouncil' : 'administration/staffCouncil.html',
@@ -13,7 +15,7 @@ var routeConfig = {
 	'/examinationCell' : 'administration/examinationCell.html',
 	'/examinationSystem' : 'administration/examinationSystem.html',
 	'/academicCouncil' : 'administration/academicCouncil.html',
-	'/protocal' : 'administration/protocal.html',
+	'/protocal' : 'administration/protocol.html',
 	
 	//For Academics
 	'/other-courses' : 'academics/addOnCourses.html',
@@ -23,7 +25,8 @@ var routeConfig = {
 	'/pg' : 'academics/pg.html',
 	'/career-oriented' : 'academics/careerOrientedCourses.html',
 	'/community-college' : 'academics/communityCollege.html',
-	'/results' : 'academics/results.html',
+	'/results': 'academics/results.html',
+    '/b-voc':'academics/bVoc.html',
 	
 	//For Campus
 	'/auditorium' : 'campus/auditorium.html',
@@ -38,7 +41,7 @@ var routeConfig = {
 	'/stationary' : 'campus/stationary.html',
 	
 	//For Students
-	'/cgc' : 'students/careerGuidence.html',
+	'/cgc' : 'students/careerGuidance.html',
 	'/counselling-cell' : 'students/counsellingCell.html',
 	'/department-club' : 'students/departmentClub.html',
 	'/grievance-redressal-cell' : 'students/grievanceRedressalCell.html',
@@ -51,7 +54,12 @@ var routeConfig = {
 	'/sports' : 'students/coCurricularActivities/sports.html',
 	'/nss' : 'students/coCurricularActivities/nss.html',
 	'/aicuf' : 'students/coCurricularActivities/aicuf.html',
-	'/red-ribbon-club' : 'students/coCurricularActivities/redRibbonClub.html',
+	'/red-ribbon-club': 'students/coCurricularActivities/redRibbonClub.html',
+	'/women-empowerment-cell': 'students/womenEmpowermentCell.html',
+	'/valueEducation': 'students/valueEducation.html',
+	'/student-welfare-committee': 'students/studentWelfareCommittee.html',
+	'/snehita': 'students/snehita.html',
+    '/anti-ragging-squad':'students/antiRaggingSquad.html',
 
 	//For Departments
 	'/departments': 'departments/index.html',

@@ -172,6 +172,11 @@ li {
     bottom:0px;
     background-color:#007fb1;
     color:#fff;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    text-align:center;
 }
 .carousel-control.right,.carousel-control.left{
     background:transparent;
