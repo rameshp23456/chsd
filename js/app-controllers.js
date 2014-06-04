@@ -205,7 +205,7 @@ var siteMap = {
                                { 'path' :"/chemistry", 'name' : "Chemistry" } ,
                     		
                     		
-                               { 'path' :"/commerce", 'name' : "Commerce &amp; Managment" } ,
+                               { 'path' :"/commerce", 'name' : "Commerce & Managment" } ,
                     		
                     		
                                { 'path' :"/computers", 'name' : "Computer Science" } ,
