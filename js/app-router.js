@@ -25,7 +25,7 @@ var routeConfig = {
 	'/pg' : 'academics/pg.html',
 	'/career-oriented' : 'academics/careerOrientedCourses.html',
 	'/community-college' : 'academics/communityCollege.html',
-	'/results': 'academics/results.html',
+	//'/results': 'academics/results.html',
     '/b-voc':'academics/bVoc.html',
 	
 	//For Campus
@@ -119,6 +119,14 @@ chsdApp.config(['$routeProvider',
            when('/sitemap', {
                templateUrl: 'sitemap.html',
                controller: 'sitemapCtrl'
+           }).
+           when('/results', {
+               templateUrl: 'placeholder.html',
+               controller: 'resultCtrl'
+           }).
+           when('/alerts/:alertid', {
+               templateUrl: 'placeholder.html',
+               controller: 'alertsCtrl'
            }).
 
         otherwise({

@@ -64,9 +64,63 @@ a.home-link {
     border-top-left-radius:inherit;
     border-top-right-radius:inherit; 
 }
-.news-marquee {
+
+
+.eventsAlerts {
+    
     height: 350px;
+    margin: 1em auto;
     overflow: hidden;
+    
+    position: relative;
+    box-sizing: border-box;
+}
+
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 15s linear infinite;
+    -webkit-animation: marquee 15s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   350px }
+    100% { top: -200px }
+}
+@-webkit-keyframes marquee {
+    0%   { top:   350px }
+    100% { top: -10px }
+}
+
+
+
+
+
+
+
+
+
+
+.news-marquee {
+    
+    top:0px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 5s linear infinite;
+    -webkit-animation: marquee 5s linear infinite;
+}
+.news-marquee:hover{
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;	
+
 }
 
 .news-item {

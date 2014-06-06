@@ -47,6 +47,8 @@
             <span class="icon-next"></span>
         </a>
     </div>
+    
+    
 
     <div class="section">
 
@@ -61,57 +63,17 @@
                     <div class="row">
                         <div class="col-lg-4 newsStand">
                             <h4 class="newsStand-title">Events and Alerts</h4>
-                            <div class="eventsAlerts news-marquee">
+                            <div class="eventsAlerts">
 
-                                <div class="news-item">
-                                    <span class="fa fa-calendar news-item-icon"></span>
-                                    <a href="#">
-                                        DIAMOND JUBILEE ALUMNAE MEET, 7th Feb.2013
-                                    </a>
-                                </div>
-                                <div class="news-item ">
-                                    <span class="fa fa-calendar news-item-icon"></span>
-                                    <a href="#">
-                                        ALUMNAE MEET INVITATION
-                                    </a>
-                                </div>
-                                <div class="news-item">
-                                    <span class="fa fa-calendar news-item-icon"></span>
-                                    <a href="#">
-                                        BROUCHURE
-                                    </a>
-                                </div>
-                                <div class="news-item">
-                                    <span class="fa fa-bell news-item-icon"></span>
-                                    <a href="#">
-                                        18th April, 2013(Results)
-                                        The II, IV & VI semester supplementary examinations will begin from 26th April 2013 onwards
-                                    </a>
-                                </div>
+								<div class="news-marquee">
 
-                                <div class="news-item">
-                                    <span class="fa fa-bell news-item-icon"></span>
-                                    <a href="#">
-                                        18th April, 2013(Results)
-                                        On 24th April 2013 I, III and V Semester supplementary results will be declared in the college at 5.p.m
-                                    </a>
-                                </div>
-                                <div class="news-item">
-
-                                    <span class="fa fa-bell news-item-icon"></span>
-                                    <a href="#">
-                                        The final year students who are willing to apply for revaluation can apply by 23rd of April 2013
-                                    </a>
-                                </div>
-                                <div class="news-item">
-
-                                    <span class="fa fa-bell news-item-icon"></span>
-                                    <a href="#">
-                                        The students who failed in II, IV&VI Semesters should pay the supplementary Examination fee by 25th of April 2013
-                                    </a>
-                                </div>
-
-
+	                                <div class="news-item" ng-repeat="eve in evts">
+	                                    <span class="fa fa-calendar news-item-icon"></span>
+	                                    <a href="#/alerts/{{eve.id}}">
+	                                        {{eve.title}}
+	                                    </a>
+	                                </div>
+								</div>
 
 
                             </div>

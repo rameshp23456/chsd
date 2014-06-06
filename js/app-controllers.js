@@ -305,6 +305,23 @@ var siteMap = {
 	],
 };
 
+
+var alerts = [{
+	
+	id:'1000',title:"DIAMOND JUBILEE ALUMNAE MEET, 7th Feb.2013"},
+	{id:'1001', title:"ALUMNAE MEET INVITATION"},
+	{id:'1002',title:"BROUCHURE"},
+	{id:'1003',title:"18th April, 2013(Results) The II, IV & VI semester supplementary examinations will begin from 26th April 2013 onwards"},
+	{id:'1004',title:"The final year students who are willing to apply for revaluation can apply by 23rd of April 2013"},
+	
+];
+
+
+
+
+
+
+
 chsdControllers.controller('mainCtrl', ['$scope', '$routeParams', '$route',
 function($scope, $routeparams, $route) {
 	// Activates the Carousel
@@ -317,16 +334,22 @@ function($scope, $routeparams, $route) {
 		selector : "a[data-toggle=tooltip]"
 	});
 
+
+/*
 	$(".eventsAlerts").marquee({
 		duration : 5000,
 		gap : 50,
 		delayBeforeStart : 0,
 		direction : 'up',
-		duplicated : true,
+		//duplicated : true,
 		pauseOnHover : true
 	});
-
-	console.log($route);
+*/
+	console.log(alerts);
+	
+	$scope.evts = alerts;
+	
+	//$scope.room = " some created"
 
 	//alert("added");
 }]);
@@ -339,6 +362,38 @@ function($scope, $routeparams, $route) {
 	var linksName = linkConfig[$route.current.originalPath];
 	$scope.links = siteMap[linksName]; 
 }]);
+
+
+chsdControllers.controller('resultCtrl', ['$scope', '$routeParams', '$route',
+function($scope, $routeparams, $route) {
+	
+	
+	$("#result-submit").click(function(e){
+    	
+    	e.preventDefault();
+    	var hallticket = $("#halltkt").val();
+    	
+    	$("download-link").attr('href','/results/'+hallticket+".pdf").click();
+    	
+    });
+	
+	$scope.template = 'academics/results.html';//routeConfig[$route.current.originalPath];
+	
+	
+	var linksName = linkConfig[$route.current.originalPath];
+	$scope.links = siteMap[linksName]; 
+}]);
+
+
+chsdControllers.controller('alertsCtrl', ['$scope', '$routeParams', '$route',
+function($scope, $routeparams, $route) {
+	$scope.template = "alerts/"+$routeparams.alertid + ".html";
+	
+	
+	var linksName = "Aboutus";
+	$scope.links = siteMap[linksName]; 
+}]);
+
 
 chsdControllers.controller('sitemapCtrl', ['$scope', '$routeParams', '$route',
 function ($scope, $routeparams, $route) {

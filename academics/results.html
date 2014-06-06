@@ -5,16 +5,25 @@
 			<label class="control-label col-sm-3">Enter hall ticket no:</label>
             <div class="col-sm-9">
                 <p class="col-sm-8">
-                    <input type="text" class="form-control" />
+                    <input type="text" class="form-control" id="halltkt" />
                 </p>
-            <input type="submit" class="btn btn-primary "  />
+            <input type="submit" class="btn btn-primary " id="result-submit" />
             </div>
         
         	</div>
 	</form>
-
+	<a href="" id="download-link" target="_blank">Download Results</a>
 
     <script>
+    
+    $("#result-submit").click(function(e){
+    	
+    	e.preventDefault();
+    	var hallticket = $("#halltkt").val();
+    	
+    	$("download-link").attr('href','/results/'+hallticket+".pdf").click();
+    	
+    });
 
     </script>
 </div>
