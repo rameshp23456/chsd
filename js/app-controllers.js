@@ -306,15 +306,7 @@ var siteMap = {
 };
 
 
-var alerts = [{
-	
-	id:'1000',title:"DIAMOND JUBILEE ALUMNAE MEET, 7th Feb.2013"},
-	{id:'1001', title:"ALUMNAE MEET INVITATION"},
-	{id:'1002',title:"BROUCHURE"},
-	{id:'1003',title:"18th April, 2013(Results) The II, IV & VI semester supplementary examinations will begin from 26th April 2013 onwards"},
-	{id:'1004',title:"The final year students who are willing to apply for revaluation can apply by 23rd of April 2013"},
-	
-];
+//var alerts = ;
 
 
 
@@ -322,8 +314,8 @@ var alerts = [{
 
 
 
-chsdControllers.controller('mainCtrl', ['$scope', '$routeParams', '$route',
-function($scope, $routeparams, $route) {
+chsdControllers.controller('mainCtrl', ['$scope', '$routeParams', '$route','$http','alertsConfig',
+function($scope, $routeparams, $route,$http,alerts) {
 	// Activates the Carousel
 	$('.carousel').carousel({
 		interval : 5000
@@ -333,6 +325,8 @@ function($scope, $routeparams, $route) {
 	$('.tooltip-social').tooltip({
 		selector : "a[data-toggle=tooltip]"
 	});
+
+	$http.get('js/alertsConfig.json').success(function (alerts) { $scope.evts = alerts.data; })
 
 
 /*
@@ -345,9 +339,10 @@ function($scope, $routeparams, $route) {
 		pauseOnHover : true
 	});
 */
-	console.log(alerts);
-	
-	$scope.evts = alerts;
+	//
+	//var alertsev = alerts.getAlerts();
+	//console.log(alertsev);
+	//$scope.evts = alertsev;
 	
 	//$scope.room = " some created"
 

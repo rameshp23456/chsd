@@ -26,6 +26,7 @@ $(function () {
 
 var chsdApp = angular.module('chsdApp', [
   'ngRoute',
-  'chsdControllers'
+  'chsdControllers',
+  'chsdServices'
 ]);
 
